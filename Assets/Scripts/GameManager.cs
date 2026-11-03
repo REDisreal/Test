@@ -1,12 +1,15 @@
 using UnityEngine;
+using TMPro;
+using System.Xml.Serialization;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField] private int giatridongxu = 0;
+    [SerializeField] private int soluongdongxu = 0;
+    [SerializeField] private TMP_Text textSoXu;
 
-    public int CoinCount => giatridongxu;
+    public int CoinCount => soluongdongxu;
 
     private void Awake()
     {
@@ -19,10 +22,19 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    private void Start()
+    {
+        capnhatUI();
+    }
 
     public void AddCoin(int amount)
     {
-        giatridongxu += amount;
-        Debug.Log($"[CoinManager] Đã thu thập {amount} coin! Tổng cộng: {giatridongxu}");
+        soluongdongxu += amount;
+        Debug.Log($"Đã thu thập {amount} xu! Tổng cộng: {soluongdongxu}");
+        capnhatUI();
+    }
+    private void capnhatUI()
+    {
+        textSoXu.text="Xu: " + soluongdongxu;
     }
 }

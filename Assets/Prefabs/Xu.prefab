@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6774840819318443264}
   - component: {fileID: 7498335184268140164}
   - component: {fileID: 4566841072844101091}
-  - component: {fileID: 7463974097175254829}
+  - component: {fileID: 6224310676629333161}
   m_Layer: 0
   m_Name: Xu
   m_TagString: Untagged
@@ -130,7 +130,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
---- !u!114 &7463974097175254829
+--- !u!114 &6224310676629333161
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,7 +139,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8917653000771965146}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcdd40e4f25e21e409693338574675f1, type: 3}
+  m_Script: {fileID: 11500000, guid: b118aef81cf780a4b90a336b629106a6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coins
+  m_EditorClassIdentifier: Assembly-CSharp::MagicCoins
   giatridongxu: 1
+  soluongcan: 35
+  hesophongto: 1.1
+  vitrinhonhat: {x: -8, y: -4}
+  vitrilonnhat: {x: 8, y: 4}
