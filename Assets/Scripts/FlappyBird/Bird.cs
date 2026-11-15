@@ -6,6 +6,7 @@ public class Bird : MonoBehaviour
     [SerializeField] private float lucnhay = 10f;
     [SerializeField] private float tocdoquay = 5f;
     [SerializeField] private Pipe pipeSpawner;
+    [SerializeField] private GameObject chim;
 
     private InputAction bamnhay; 
     private Rigidbody2D khungxuong2D;
@@ -15,17 +16,12 @@ public class Bird : MonoBehaviour
 
     void Awake()
     {
+        chim.SetActive(true);
         bamnhay=InputSystem.actions.FindAction("Attack");
         khungxuong2D=GetComponent<Rigidbody2D>();
         trongluc = khungxuong2D.gravityScale;
         khungxuong2D.gravityScale = 0f;
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (bamnhay.WasPressedThisFrame())
