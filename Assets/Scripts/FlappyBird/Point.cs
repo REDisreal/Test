@@ -4,6 +4,7 @@ public class Point : MonoBehaviour
 {
     private static int point = 0;
     public static int Tongdiem => point;
+    [SerializeField] private AudioClip tiengDiem;
 
     public static void ResetPoint()
     {
@@ -15,6 +16,7 @@ public class Point : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             point += 1;
+            AudioSource.PlayClipAtPoint(tiengDiem, Camera.main.transform.position);
         }
     }
 }

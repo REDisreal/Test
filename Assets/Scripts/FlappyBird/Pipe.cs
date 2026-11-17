@@ -1,4 +1,4 @@
-using UnityEngine;
+    using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Pipe : MonoBehaviour
@@ -9,6 +9,8 @@ public class Pipe : MonoBehaviour
     [SerializeField] private float minY = -1f;
     [SerializeField] private float maxY = 2f;
     [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject scoreDisplay;
+    [SerializeField] private AudioClip tiengThua;
 
     private void Awake()
     {
@@ -28,7 +30,9 @@ public class Pipe : MonoBehaviour
     }
     public void GameOver()
     {
+        AudioSource.PlayClipAtPoint(tiengThua, Camera.main.transform.position);
         Time.timeScale = 0f;
+        scoreDisplay.SetActive(false);  
         gameOverPanel.SetActive(true);
     }
     public void Restart()

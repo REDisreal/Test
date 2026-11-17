@@ -7,6 +7,7 @@ public class Bird : MonoBehaviour
     [SerializeField] private float tocdoquay = 5f;
     [SerializeField] private Pipe pipeSpawner;
     [SerializeField] private GameObject chim;
+    [SerializeField] private AudioClip tiengNhay;
 
     private InputAction bamnhay; 
     private Rigidbody2D khungxuong2D;
@@ -31,7 +32,8 @@ public class Bird : MonoBehaviour
                 batdau = true;
                 khungxuong2D.gravityScale = trongluc;
                 pipeSpawner.StartSpawning();   
-            }  
+            }
+            AudioSource.PlayClipAtPoint(tiengNhay, Camera.main.transform.position);
             nhay=true;
         }
     }

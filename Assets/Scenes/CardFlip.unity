@@ -7162,49 +7162,49 @@ MonoBehaviour:
   isChecking: 0
   clubs:
   - logo: {fileID: 21300000, guid: d8f1500f3074bd64591cd5db43d07ba0, type: 3}
-    description: "CLB nh\xE0 s\xE1ng t\u1EA1o game (GCC)"
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
-  - logo: {fileID: 0}
-    description: 
+    description: "CLB nh\xE0 s\xE1ng t\u1EA1o game"
+  - logo: {fileID: 21300000, guid: f58acbde7ebc89a4495e76552849329d, type: 3}
+    description: "CLB S\xE1ch v\xE0 H\xE0nh \u0111\u1ED9ng PTIT"
+  - logo: {fileID: 21300000, guid: cf4723e7e6a551641becde84f24e636c, type: 3}
+    description: "CLB B\xF3ng \u0111\xE1 B\u01B0u ch\xEDnh"
+  - logo: {fileID: 21300000, guid: d5f89f0235725bb4dba8ff7ac69aade5, type: 3}
+    description: "CLB \u0110i\u1EC7n t\u1EED PTIT"
+  - logo: {fileID: 21300000, guid: 63f8d6222bbdf084da469e9612bad252, type: 3}
+    description: "CLB L\u1EADp tr\xECnh PTIT"
+  - logo: {fileID: 21300000, guid: 67d1313fa820a4843bcbdcdad345d806, type: 3}
+    description: "CLB V\u0103n h\xF3a ngh\u1EC7 thu\u1EADt"
+  - logo: {fileID: 21300000, guid: 61ffe64c04e4af849925b0fb61805e91, type: 3}
+    description: "\u0110\u1ED9i c\u1EDD \u0111\u1ECF PTIT"
+  - logo: {fileID: 21300000, guid: d3a3cb43e510da047ba32bb128298f6f, type: 3}
+    description: "\u0110\u1ED8I L\u1EC4 T\xC2N PTIT"
+  - logo: {fileID: 21300000, guid: 0ca952d4ddc72f84693177ccdb456931, type: 3}
+    description: CLB EMA
+  - logo: {fileID: 21300000, guid: 5e3b46158b54dc64896a31d32ed3d759, type: 3}
+    description: CLB GDSC PTIT
+  - logo: {fileID: 21300000, guid: 71e3ffc12abb22246bd75841a8a33291, type: 3}
+    description: CLB Guitar PTIT - GPC
+  - logo: {fileID: 21300000, guid: b4bdc7f18f422e845a67a137d92f8225, type: 3}
+    description: "\u0110\u1ED9i Thanh ni\xEAn v\u1EADn \u0111\u1ED9ng hi\u1EBFn m\xE1u PTIT"
+  - logo: {fileID: 21300000, guid: 3df92c4ff83da73459bb28505368e185, type: 3}
+    description: CLB IT PTIT
+  - logo: {fileID: 21300000, guid: c99167a73471bd842bc9ab69fa132106, type: 3}
+    description: "CLB c\xF4ng ngh\u1EC7 th\xF4ng tin UDU"
+  - logo: {fileID: 21300000, guid: 31399ccb6eebaf249a03f0c8f6982107, type: 3}
+    description: "CLB H\u1ED7 tr\u1EE3 H\u1ECDc t\u1EADp - LSC PTIT"
+  - logo: {fileID: 21300000, guid: 6f8841d275266ca4388eb56c8be3866b, type: 3}
+    description: CLB MC PTIT - MCP
+  - logo: {fileID: 21300000, guid: 8966b63100f0c8442bdddc4ee3ce2d4e, type: 3}
+    description: CLB Multimedia PTIT
+  - logo: {fileID: 21300000, guid: 2df158fbc323bde4d9287f22a490f47a, type: 3}
+    description: "CLB Guitar H\u1ECDc vi\u1EC7n C\xF4ng ngh\u1EC7 B\u01B0u ch\xEDnh Vi\u1EC5n th\xF4ng - PGC"
+  - logo: {fileID: 21300000, guid: 5ffd9e0dc07381c4f8b486a8be7512c6, type: 3}
+    description: "CLB Truy\u1EC1n Th\xF4ng & K\u1EF9 N\u0103ng M\u1EC1m S4C - PTIT"
+  - logo: {fileID: 21300000, guid: dba6069f5db186442b4c9199ea4ae99b, type: 3}
+    description: "CLB S\u1ED5 Media"
+  - logo: {fileID: 21300000, guid: af9645b10efa1ea448cb03170f9bdd04, type: 3}
+    description: CLB Taekwondo PTIT
+  - logo: {fileID: 21300000, guid: 90f7bf758d22a134db6d830d678dd38d, type: 3}
+    description: UP Community
   itemPrefab: {fileID: 762389835727836836, guid: ebd9f81323a403c478842a0a405f1b31, type: 3}
   content: {fileID: 1073256965}
 --- !u!1 &1734828718
